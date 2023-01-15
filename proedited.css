@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Rubik+Gemstones&family=Teko:wght@300&display=swap');
+
+/* bavbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.navhead {
+    margin-left: 50px;
+    text-decoration: solid;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+
+.navhead:hover {
+    color: crimson;
+}
+
+.navlink {
+    margin-left: 750px;
+    margin-top: 20px;
+
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+.navlink a {
+    color: #717275;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+
+.navbtn {
+    margin-left: 50px;
+    color: crimson;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.navlink a:hover {
+    color: crimson;
+}
+
+.navbtn:hover {
+    background-color: white;
+    color: crimson;
+}
+
+.navbar {
+    position: sticky;
+    height: 90px;
+    top: 0px;
+    background-color: white;
+}
+
+/* background */
+
+.bckimg {
+    width: 100;
+    height: 600px;
+    background-image: url("./images/rest1stimg.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+#bckh1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#bckbtn {
+    background-color: crimson;
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#bckbtn:hover {
+    background-color: white;
+    color: crimson;
+}
+
+#spclmenu {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: 100px;
+
+}
+
+/* spclmenu */
+
+#menugall {
+    height: 400px;
+    width: 30%;
+    float: left;
+
+    margin-left: 50px;
+}
+
+#galimg {
+    width: 400px;
+    height: 400px;
+
+}
+
+#menuh2 {
+    margin-left: 125px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+
+}
+
+#menubtn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    border-color: goldenrod;
+    color: goldenrod;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 150px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+
+
+#menup {
+    font-size: 20px;
+    /* margin-left: 60px; */
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+}
+
+#review {
+    font-family: 'Padyakke Expanded One', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 125px;
+}
+
+#galimg {
+    transition-duration: .1s;
+}
+
+#galimg:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.zoom {
+    transition-duration: .1s;
+}
+
+.zooml {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+/* backgroundimg2 */
+
+
+.midbackimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/valentines\ day\ restaurants\ okmumbai\ lead\ \(1\).webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-top: 1300px;
+}
+
+.midback-content {
+
+    width: 100%;
+    padding-left: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Teko', sans-serif;
+
+}
+
+.midback-content {
+    font-size: 7vmin;
+}
+
+#midbtn {
+    color: white;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 20px;
+}
+
+#midbtn:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.midbackimg {
+    position: sticky;
+
+}
+
+/* newsandevents */
+
+.news_events_tittle {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    background-color: whitesmoke;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow .3s;
+}
+
+.row .col:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+#imgbtn {
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 10px;
+    margin-right: 350px;
+}
+
+#imgh3 {
+    font-size: 27px;
+    font-family: 'Signika', sans-serif;
+}
+
+
+/* news */
+
+.col-img {
+
+    width: 33.3%;
+}
+
+.col-img2 {
+    width: 33.3%;
+
+}
+
+.col-img3 {
+    width: 33.3%;
+}
+
+#promobtn {
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: aqua;
+    border: 0px;
+    border-color: aqua;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+#promobtn:hover {
+    background-color: white;
+    color: aqua;
+}
+
+#nwsbtn {
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    border: 0px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+#nwsbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.meetingbtn {
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: aqua;
+    border: 0px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.meetingbtn:hover {
+    background-color: white;
+    color: aqua;
+}
+
+.newsh3 {
+    font-size: 25px;
+    font-family: 'Signika', sans-serif;
+}
+
+.newsh3:hover {
+    color: crimson;
+}
+
+
+/* footer */
+
+.footer .row {
+    width: 100;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer .row .col {
+    /* width: 300px;
+    height: 600px;
+}  */
+
+    .col-1 {
+
+        background-color: black;
+    }
+
+    .col-2 {
+        background-color: black;
+    }
+
+    .col-3 {
+        background-color: black;
+    }
+
+    .footertittle {}
+
+    .footer h2:hover {
+        color: crimson;
+    }
+
+    .footer:hover {
+        color: crimson;
+    }
